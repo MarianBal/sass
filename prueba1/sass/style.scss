@@ -7,9 +7,12 @@ body{
 ul{
     list-style-type:none;
 }
+img{
+    width:100%;
+}
 header{
     width:100%;
-    height:50px;
+    height:106px;
     background: $gris;
     box-sizing: border-box;
     padding:$padding-contenedor;
@@ -23,7 +26,7 @@ header{
         padding-top: .3125rem;
         padding-bottom: .3125rem;
         margin-right: 1rem;
-        font-size: 1.25rem;
+        font-size: 2rem;
         font-weight: bold;
     }
     ul{
@@ -36,6 +39,17 @@ header{
                 color:$verde;
             }
         }
+    }
+}
+.presentacion{
+    background:$verde;
+    box-sizing: border-box;
+    padding-top:$padding-top;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width:256px;
     }
 }
 
