@@ -1,0 +1,26 @@
+/* line 3, ../sass/style.scss */
+body {
+  margin: 0;
+}
+
+/* line 6, ../sass/style.scss */
+li {
+  text-decoration-style: none;
+}
+
+/* line 9, ../sass/style.scss */
+header {
+  width: 100%;
+  height: 50px;
+  background: #2C3E50;
+}
+/* line 13, ../sass/style.scss */
+header .marca {
+  /*display: inline-block;*/
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  /*line-height: inherit;*/
+  /*white-space: nowrap;*/
+}

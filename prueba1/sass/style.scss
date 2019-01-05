@@ -1,11 +1,24 @@
-// Here's where we define some default constants
 @import "partials/base";
 
+body{
+    margin:0;
+}
+li{
+    text-decoration-style:none;
+}
+header{
+    width:100%;
+    height:50px;
+    background: $gris;
+    .marca{
+        /*display: inline-block;*/
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        /*line-height: inherit;*/
+        /*white-space: nowrap;*/
+    }
+}
 
-// Finally, put your own styles in these partials
-// and add more as needed (i.e. forms, tables, nav)
-@import "partials/fonts";
-@import "partials/page";
 
-// Media should come last
-@import "partials/media";
