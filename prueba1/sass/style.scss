@@ -2,22 +2,40 @@
 
 body{
     margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
-li{
-    text-decoration-style:none;
+ul{
+    list-style-type:none;
 }
 header{
     width:100%;
     height:50px;
     background: $gris;
+    box-sizing: border-box;
+    padding:$padding-contenedor;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: $mayusculas;
+    color:$blanco;
+    font-weight: bold;
     .marca{
-        /*display: inline-block;*/
         padding-top: .3125rem;
         padding-bottom: .3125rem;
         margin-right: 1rem;
         font-size: 1.25rem;
-        /*line-height: inherit;*/
-        /*white-space: nowrap;*/
+        font-weight: bold;
+    }
+    ul{
+        width:30%;
+        display:flex;
+        justify-content: space-between;
+        li{
+            width:ul/3;
+            &:hover{
+                color:$verde;
+            }
+        }
     }
 }
 
