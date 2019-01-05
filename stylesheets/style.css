@@ -30,28 +30,23 @@ header {
 }
 /* line 25, ../sass/style.scss */
 header .marca {
+  font-size: 2em;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin-right: 1rem;
-  font-size: 2rem;
-  font-weight: bold;
 }
-/* line 32, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 header ul {
   width: 30%;
   display: flex;
   justify-content: space-between;
 }
 /* line 36, ../sass/style.scss */
-header ul li {
-  width: ul/3;
-}
-/* line 38, ../sass/style.scss */
 header ul li:hover {
   color: #18BC9C;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .presentacion {
   background: #18BC9C;
   box-sizing: border-box;
@@ -60,7 +55,24 @@ header ul li:hover {
   flex-direction: column;
   align-items: center;
 }
-/* line 51, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .presentacion img {
   width: 256px;
+}
+/* line 52, ../sass/style.scss */
+.presentacion h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+/* line 57, ../sass/style.scss */
+.presentacion hr {
+  width: 200px;
+  border: 4px solid white;
+  margin: o;
+}
+/* line 62, ../sass/style.scss */
+.presentacion h4 {
+  font-size: 1.75em;
+  color: white;
 }

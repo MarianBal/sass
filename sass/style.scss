@@ -23,18 +23,16 @@ header{
     color:$blanco;
     font-weight: bold;
     .marca{
+        font-size:$texto-grande;
         padding-top: .3125rem;
         padding-bottom: .3125rem;
         margin-right: 1rem;
-        font-size: 2rem;
-        font-weight: bold;
     }
     ul{
         width:30%;
         display:flex;
         justify-content: space-between;
         li{
-            width:ul/3;
             &:hover{
                 color:$verde;
             }
@@ -51,6 +49,21 @@ header{
     img{
         width:256px;
     }
+    h1{
+        font-size: 4em;
+        font-weight:bold;
+        color:$blanco;
+    }
+    hr{
+        width:200px;
+        border:$linea;
+        margin:o;
+    }
+    h4{
+        font-size: 1.75em;
+        color:$blanco;
+    }
+    
 }
 
 
