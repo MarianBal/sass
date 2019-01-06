@@ -2,20 +2,23 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 img {
   width: 100%;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 header {
+  position: fixed;
+  top: 0px;
   width: 100%;
   height: 106px;
   background: #2C3E50;
@@ -28,50 +31,50 @@ header {
   color: white;
   font-weight: bold;
 }
-/* line 25, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 header .marca {
   font-size: 2em;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin-right: 1rem;
 }
-/* line 31, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 header ul {
   width: 30%;
   display: flex;
   justify-content: space-between;
 }
-/* line 36, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 header ul li:hover {
   color: #18BC9C;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .presentacion {
   background: #18BC9C;
   box-sizing: border-box;
-  padding-top: 50px;
+  padding-top: 156px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 49, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .presentacion img {
   width: 256px;
 }
-/* line 52, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .presentacion h1 {
   font-size: 4em;
   font-weight: bold;
   color: white;
 }
-/* line 57, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .presentacion hr {
   width: 200px;
   border: 4px solid white;
   margin: o;
 }
-/* line 62, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .presentacion h4 {
   font-size: 1.75em;
   color: white;
