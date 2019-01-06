@@ -3,6 +3,7 @@
 body{
     margin:0;
     font-family: 'Montserrat', sans-serif;
+    position:relative;
 }
 ul{
     list-style-type:none;
@@ -11,8 +12,10 @@ img{
     width:100%;
 }
 header{
+    position:fixed;
+    top:0px;
     width:100%;
-    height:106px;
+    height:$alto-header;
     background:$gris;
     box-sizing: border-box;
     padding:$padding-contenedor;
@@ -42,7 +45,7 @@ header{
 .presentacion{
     background:$verde;
     box-sizing: border-box;
-    padding-top:$padding-top;
+    padding-top:$alto-header + $padding-top;
     display:flex;
     flex-direction: column;
     align-items: center;
