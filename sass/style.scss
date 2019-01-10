@@ -8,9 +8,6 @@ body{
 ul{
     list-style-type:none;
 }
-img{
-    width:100%;
-}
 header{
     position:fixed;
     top:0px;
@@ -60,6 +57,7 @@ header{
     hr{
         width:200px;
         border:$linea;
+        border-color: $blanco;
         margin:o;
     }
     h4{
@@ -68,5 +66,40 @@ header{
     }
     
 }
+.portfolio{
+    width:100%;
+    background: $blanco;
+    box-sizing: border-box;
+    padding: $padding-top;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-contenedor;
+    h2{
+        font-size: 3em;
+        font-weight:bold;
+        color:$gris;
+        text-transform: $mayusculas;
+    }
+    hr{
+        width:200px;
+        border:$linea;
+        border-color:$gris;
+        margin:o;
+    }
+    .trabajos{
+        padding-top:$padding-top;
+        display:flex;
+        flex:wrap;
+        justify-content: space-around;
+        .contenedor_imagen{
+            width:100%;
+        }
 
+
+        img{
+            width:100%;;
+        }
+    }
+}
 

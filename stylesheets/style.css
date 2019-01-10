@@ -11,11 +11,6 @@ ul {
 }
 
 /* line 11, ../sass/style.scss */
-img {
-  width: 100%;
-}
-
-/* line 14, ../sass/style.scss */
 header {
   position: fixed;
   top: 0px;
@@ -31,25 +26,25 @@ header {
   color: white;
   font-weight: bold;
 }
-/* line 28, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 header .marca {
   font-size: 2em;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin-right: 1rem;
 }
-/* line 34, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 header ul {
   width: 30%;
   display: flex;
   justify-content: space-between;
 }
-/* line 39, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 header ul li:hover {
   color: #18BC9C;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .presentacion {
   background: #18BC9C;
   box-sizing: border-box;
@@ -58,24 +53,65 @@ header ul li:hover {
   flex-direction: column;
   align-items: center;
 }
-/* line 52, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .presentacion img {
   width: 256px;
 }
-/* line 55, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .presentacion h1 {
   font-size: 4em;
   font-weight: bold;
   color: white;
 }
-/* line 60, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .presentacion hr {
   width: 200px;
-  border: 4px solid white;
+  border: 4px solid;
+  border-color: white;
   margin: o;
 }
-/* line 65, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .presentacion h4 {
   font-size: 1.75em;
   color: white;
+}
+
+/* line 69, ../sass/style.scss */
+.portfolio {
+  background: white;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10% 0 10%;
+}
+/* line 77, ../sass/style.scss */
+.portfolio h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #2C3E50;
+  text-transform: uppercase;
+}
+/* line 83, ../sass/style.scss */
+.portfolio hr {
+  width: 200px;
+  border: 4px solid;
+  border-color: #2C3E50;
+  margin: o;
+}
+/* line 89, ../sass/style.scss */
+.portfolio .trabajos {
+  padding-top: 50px;
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+}
+/* line 94, ../sass/style.scss */
+.portfolio .trabajos .contenedor_imagen {
+  width: 100%;
+}
+/* line 99, ../sass/style.scss */
+.portfolio .trabajos img {
+  width: 100%;
 }

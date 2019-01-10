@@ -1,0 +1,39 @@
+@import "partials/base";
+
+@mixin border-radius($pixeles) {
+    -webkit-border-radius: $pixeles;
+    -ms-border-radius: $pixeles;
+    border-radius: $pixeles;
+}
+
+@mixin centrar() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin cuadrado($medida, $borde, $color-fondo) {
+    background-color: $color-fondo;
+    width: $medida;
+    height: $medida;
+    border: $borde;
+}
+
+body {
+    background-color: $color-fondo;
+    color: darken($color-fondo, 10%);
+}
+
+div {
+    @include border-radius(5px);
+    @include centrar();
+
+    @include cuadrado(150px, 1px solid black, red);
+
+
+}
+
+span {
+    @include cuadrado(300px, 0px, yellow);
+}
+`
