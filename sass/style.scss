@@ -6,30 +6,66 @@
     justify-content:$justifyContent;
     align-items:$alignItems;
 }
+
+@mixin borderBox(){
+    box-sizing: border-box;
+}
 body{
     background-color: #f8f8f8;
     margin: 0;
+    font-family: 'Nunito', sans-serif;
 
     .contenedorGeneral{
-        background-color: red;
         width: 100%;
         height: 100vh;
     }
     nav{
         width: 100%;
         height: 75px;
-        background-color: white;
+        background-color: $fondo;
+        @include flexbox(row, flex-start, center);
 
         .logo{
             width: 95px;
-            height: 75px;
-            background-color: $violeta;
+            height: 100%;
+            background-color: $logo;
             @include flexbox(row, center, center);
 
             svg{
                 width: 45px;
                 height: 40px;
             }
+            svg:hover{
+                height: 41px;
+                height: auto;
+                cursor: pointer
+            }
+        }
+
+
+        .header{
+            width: 100%;
+            height: 100%;
+            @include borderBox();
+            padding: 0 3% 0 3% ;
+            color:$color-tipo;
+            @include flexbox(row, flex-start, center);
+
+                .fas{
+                    width: 18px;
+                    margin-right: 5px;
+                }
+
+                input{
+                    width: 80%;
+                    height: 30px;
+                    border:none;
+                    @include borderBox();
+                    padding-left: 3px;
+                    font-family: 'Nunito', sans-serif;
+                }
+
+
         }
     }
     
