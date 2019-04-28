@@ -40,7 +40,7 @@ body nav .logo svg:hover {
   height: auto;
   cursor: pointer;
 }
-/* line 47, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 body nav .header {
   width: 100%;
   height: 100%;
@@ -52,12 +52,12 @@ body nav .header {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 55, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 body nav .header .fas {
   width: 18px;
   margin-right: 5px;
 }
-/* line 60, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 body nav .header input {
   width: 80%;
   height: 30px;
