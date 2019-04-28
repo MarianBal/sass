@@ -1,117 +1,32 @@
-/* line 3, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 body {
+  background-color: #f8f8f8;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
 }
-
-/* line 8, ../sass/style.scss */
-ul {
-  list-style-type: none;
-}
-
-/* line 11, ../sass/style.scss */
-header {
-  position: fixed;
-  top: 0px;
+/* line 13, ../sass/style.scss */
+body .contenedorGeneral {
+  background-color: red;
   width: 100%;
-  height: 106px;
-  background: #2C3E50;
-  box-sizing: border-box;
-  padding: 0 10% 0 10%;
+  height: 100vh;
+}
+/* line 18, ../sass/style.scss */
+body nav {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+}
+/* line 23, ../sass/style.scss */
+body nav .logo {
+  width: 95px;
+  height: 75px;
+  background-color: #bc3b69;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-}
-/* line 25, ../sass/style.scss */
-header .marca {
-  font-size: 2em;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  margin-right: 1rem;
-}
-/* line 31, ../sass/style.scss */
-header ul {
-  width: 30%;
-  display: flex;
-  justify-content: space-between;
-}
-/* line 36, ../sass/style.scss */
-header ul li:hover {
-  color: #18BC9C;
-}
-
-/* line 42, ../sass/style.scss */
-.presentacion {
-  background: #18BC9C;
-  box-sizing: border-box;
-  padding-top: 156px;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
-/* line 49, ../sass/style.scss */
-.presentacion img {
-  width: 256px;
-}
-/* line 52, ../sass/style.scss */
-.presentacion h1 {
-  font-size: 4em;
-  font-weight: bold;
-  color: white;
-}
-/* line 57, ../sass/style.scss */
-.presentacion hr {
-  width: 200px;
-  border: 4px solid;
-  border-color: white;
-  margin: o;
-}
-/* line 63, ../sass/style.scss */
-.presentacion h4 {
-  font-size: 1.75em;
-  color: white;
-}
-
-/* line 69, ../sass/style.scss */
-.portfolio {
-  background: white;
-  box-sizing: border-box;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 10% 0 10%;
-}
-/* line 77, ../sass/style.scss */
-.portfolio h2 {
-  font-size: 3em;
-  font-weight: bold;
-  color: #2C3E50;
-  text-transform: uppercase;
-}
-/* line 83, ../sass/style.scss */
-.portfolio hr {
-  width: 200px;
-  border: 4px solid;
-  border-color: #2C3E50;
-  margin: o;
-}
-/* line 89, ../sass/style.scss */
-.portfolio .trabajos {
-  padding-top: 50px;
-  display: flex;
-  flex: wrap;
-  justify-content: space-around;
-}
-/* line 94, ../sass/style.scss */
-.portfolio .trabajos .contenedor_imagen {
-  width: 100%;
-}
-/* line 99, ../sass/style.scss */
-.portfolio .trabajos img {
-  width: 100%;
+/* line 29, ../sass/style.scss */
+body nav .logo svg {
+  width: 45px;
+  height: 40px;
 }
