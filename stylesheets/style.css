@@ -1,15 +1,15 @@
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 body {
   background-color: #f8f8f8;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-/* line 18, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body .contenedorGeneral {
   width: 100%;
   height: 100vh;
 }
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 body nav {
   width: 100%;
   height: 75px;
@@ -19,7 +19,7 @@ body nav {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 body nav .logo {
   width: 95px;
   height: 100%;
@@ -28,7 +28,6 @@ body nav .logo {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 /* line 36, ../sass/style.scss */
 body nav .logo svg {
@@ -43,7 +42,7 @@ body nav .logo svg:hover {
 }
 /* line 48, ../sass/style.scss */
 body nav .header {
-  width: 100%;
+  width: 90%;
   height: 100%;
   box-sizing: border-box;
   color: #838D91;
@@ -61,20 +60,21 @@ body nav .header .fas {
 body nav .header input {
   width: 80%;
   height: 30px;
+  border: none;
   box-sizing: border-box;
   padding-left: 3px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* line 72, ../sass/style.scss */
 body ul {
   width: 95px;
   height: 100vh;
-  background-color: blue;
+  background-color: white;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 81, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 body ul li {
   width: 100%;
   height: 95px;
@@ -84,18 +84,25 @@ body ul li {
   align-items: center;
   box-sizing: border-box;
 }
-/* line 87, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 body ul li .fas, body ul li .far {
   width: 20px;
   height: 20px;
   color: #838D91;
   margin-bottom: 5px;
 }
-/* line 94, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 body ul li p {
   margin: 0;
   text-transform: uppercase;
   color: #838D91;
   text-align: center;
   font-size: 11px;
+}
+/* line 105, ../sass/style.scss */
+body .presentacion {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  background-color: grey;
 }
