@@ -3,13 +3,14 @@ body {
   background-color: #f8f8f8;
   margin: 0;
   font-family: 'Nunito', sans-serif;
+  list-style: none;
 }
-/* line 18, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body .contenedorGeneral {
   width: 100%;
   height: 100vh;
 }
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 body nav {
   width: 100%;
   height: 75px;
@@ -19,7 +20,7 @@ body nav {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 body nav .logo {
   width: 95px;
   height: 100%;
@@ -29,18 +30,18 @@ body nav .logo {
   justify-content: center;
   align-items: center;
 }
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 body nav .logo svg {
   width: 45px;
   height: 40px;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 body nav .logo svg:hover {
   height: 41px;
   height: auto;
   cursor: pointer;
 }
-/* line 46, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 body nav .header {
   width: 100%;
   height: 100%;
@@ -52,12 +53,12 @@ body nav .header {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 body nav .header .fas {
   width: 18px;
   margin-right: 5px;
 }
-/* line 59, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 body nav .header input {
   width: 80%;
   height: 30px;
