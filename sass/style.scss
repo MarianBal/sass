@@ -14,7 +14,6 @@ body{
     background-color: #f8f8f8;
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    list-style:none;
 
     .contenedorGeneral{
         width: 100%;
@@ -31,6 +30,8 @@ body{
             height: 100%;
             background-color: $logo;
             @include flexbox(row, center, center);
+            @include borderBox();
+            
 
             svg{
                 width: 45px;
@@ -45,29 +46,60 @@ body{
 
 
         .header{
+            
             width: 100%;
             height: 100%;
             @include borderBox();
-            padding: 0 3% 0 3% ;
             color:$color-tipo;
             @include flexbox(row, flex-start, center);
 
                 .fas{
                     width: 18px;
-                    margin-right: 5px;
+                    margin: 0 5px 0 2%;;
                 }
 
                 input{
                     width: 80%;
                     height: 30px;
-                    border:none;
+                    // border:none;
                     @include borderBox();
                     padding-left: 3px;
                     font-family: 'Nunito', sans-serif;
                 }
-
-
         }
     }
     
+    ul{
+        width: 95px;
+        height: 100vh;
+        background-color:blue;
+        // $fondo;
+        margin: 0;
+        padding: 0;
+        list-style:none;
+   
+        li{
+            width: 100%;
+            height: 95px;
+            @include flexbox(column, center, center);
+            @include borderBox();
+
+            .fas, .far{
+                width: 20px;
+                height: 20px;
+                color: $color-tipo;
+                margin-bottom: 5px;
+            }
+
+            p{
+                margin: 0;
+                text-transform: uppercase;
+                color: $color-tipo;
+                text-align: center;
+                font-size: 11px;
+
+            }
+            
+        }
+    }
 }

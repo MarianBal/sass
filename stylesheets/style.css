@@ -3,14 +3,13 @@ body {
   background-color: #f8f8f8;
   margin: 0;
   font-family: 'Nunito', sans-serif;
-  list-style: none;
 }
-/* line 19, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 body .contenedorGeneral {
   width: 100%;
   height: 100vh;
 }
-/* line 23, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 body nav {
   width: 100%;
   height: 75px;
@@ -20,7 +19,7 @@ body nav {
   justify-content: flex-start;
   align-items: center;
 }
-/* line 29, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 body nav .logo {
   width: 95px;
   height: 100%;
@@ -29,41 +28,74 @@ body nav .logo {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 body nav .logo svg {
   width: 45px;
   height: 40px;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 body nav .logo svg:hover {
   height: 41px;
   height: auto;
   cursor: pointer;
 }
-/* line 47, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 body nav .header {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding: 0 3% 0 3%;
   color: #838D91;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-/* line 55, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 body nav .header .fas {
   width: 18px;
-  margin-right: 5px;
+  margin: 0 5px 0 2%;
 }
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 body nav .header input {
   width: 80%;
   height: 30px;
-  border: none;
   box-sizing: border-box;
   padding-left: 3px;
   font-family: 'Nunito', sans-serif;
+}
+/* line 72, ../sass/style.scss */
+body ul {
+  width: 95px;
+  height: 100vh;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 81, ../sass/style.scss */
+body ul li {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+/* line 87, ../sass/style.scss */
+body ul li .fas, body ul li .far {
+  width: 20px;
+  height: 20px;
+  color: #838D91;
+  margin-bottom: 5px;
+}
+/* line 94, ../sass/style.scss */
+body ul li p {
+  margin: 0;
+  text-transform: uppercase;
+  color: #838D91;
+  text-align: center;
+  font-size: 11px;
 }
