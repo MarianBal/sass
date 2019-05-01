@@ -12,12 +12,14 @@
 }
 
 body{
-    background-color: #f8f8f8;
+    background-color: red;
+    // #f8f8f8;
     margin: 0;
     font-family: $fuente;
 
     .contenedorGeneral{
         width: 100%;
+        height: 100%;
         
         nav{
             width: 100%;
@@ -45,28 +47,30 @@ body{
                 color:$color-tipo;
                 @include flexbox(row, flex-start, center);
 
-                    .fas{
-                        width: 18px;
-                        margin: 0 5px 0 2%;;
-                    }
+                .fas{
+                    width: 18px;
+                    margin: 0 5px 0 2%;;
+                }
 
-                    input{
-                        width: 80%;
-                        height: 30px;
-                        border:none;
-                        @include borderBox();
-                        padding-left: 3px;
-                        font-family: $fuente;
-                    }
+                input{
+                    width: 80%;
+                    height: 30px;
+                    border:none;
+                    @include borderBox();
+                    padding-left: 3px;
+                    font-family: $fuente;
+                }
             }
         }
         
         .contenedorSecundario{
+            height: 100%;
             @include flexbox(row, flex-start ,flex-start );
+            
             
             ul{
                 width: 95px;
-                height: 100vh;
+                height: 100%;
                 background-color: $fondo;
                 margin: 0;
                 padding: 0;
@@ -110,16 +114,24 @@ body{
                     background-color: grey;
                     @include flexbox(row, center, center);
 
-                    
                     h1{
                         margin: 0;
                         font-family: $fuente;
-                        font-weight: bold;
                         text-transform: uppercase;
 
                     }
                 }
             }
+
+            .contenedorPeliculas{
+                width:100%;
+                height: 100vh;
+                background-color:aqua;
+
+                ul{
+                    @include flexbox (row, space-between, center);
+                }
+            }            
         }
     }
 }
